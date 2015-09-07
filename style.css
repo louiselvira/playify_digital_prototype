@@ -1,0 +1,150 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-family: 'Paytone One', sans-serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Paytone One', sans-serif;
+	text-align: center;
+}
+
+button {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.category-close {
+	margin-top: 20px;
+	margin-top: 20px;
+	clear: both;
+}
+
+.card-close, .remove-card, .card-add {
+	display: inline-block;
+	margin: auto;
+}
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flexbox-container > .category {
+	width: 25%;
+	padding: 10px;
+	min-height: 600px;
+}
+
+.board-header {
+	color: white;
+}
+
+#player {
+	background-color: #346370;
+}
+
+#challenge {
+	background-color: #492f49;
+}
+
+#mechanics {
+	background-color: #cc6a75;
+}
+
+#feedback {
+	background-color: #e8a148;
+}
+
+.card-thumb {
+	display: inline-block;
+	max-width: 13%;
+	border-radius: 30px;
+}
+
+.card-full {
+	width: 100%;
+	border-radius: 30px;
+	margin: auto;
+}
+
+.board-card {
+	display: block;
+	max-width: 90%;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.card-details {
+	display: none;
+	padding: 20px 20px 20px 20px;
+	width: 30%;
+	height: 65%;
+	box-shadow: 5px 5px 20px #888888;
+	border-radius: 10px;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    z-index: 1000;
+}
+
+#modal-content {
+	display: none;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0 0 20px 0 #222;
+    -webkit-box-shadow: 0 0 20px 0 #222;
+    -moz-box-shadow: 0 0 20px 0 #222;
+    left: 2%;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 3%;
+    max-width: 95%;
+    height: 95%;
+    z-index: 1000;
+
+}
+
+#modal-background.active, #modal-content.active, .card-details.active {
+    display: block;
+	overflow: auto;
+	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+#card-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+
+#category-header {
+	margin: auto;
+	margin-bottom: 20px;
+}
+

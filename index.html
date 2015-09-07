@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Playify: the gamification toolkit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Paytone+One|Source+Sans+Pro:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+   </head>
+
+	<body>
+		<h1>Playify: the gamification toolkit</h1>
+
+		<div class="flexbox-container">
+
+			<div id="player" class="category">
+				<h2 class="board-header">The Player</h2>
+				<button class="modal-launcher">Add card</button>
+			</div>
+
+			<div id="challenge" class="category">
+				<h2 class="board-header">The Challenge</h2>
+				<button class="modal-launcher">Add card</button>
+			</div>
+			
+			<div id="mechanics" class="category">
+				<h2 class="board-header">The Mechanics</h2>
+				<button class="modal-launcher">Add card</button>
+			</div>
+			
+			<div id="feedback" class="category">
+				<h2 class="board-header">The Feedback</h2>
+				<button class="modal-launcher">Add card</button>
+			</div>
+
+			<!-- Category pop up window -->
+
+			<div id="modal-background"></div>
+			<div id="modal-content">
+				<h2 id="category-header"></h2>
+				<div id="card-container"></div>
+    			<button class="category-close">Close</button>
+			</div>
+
+			<!-- Card pop up window -->
+
+			<div class="card-details">
+			</div>
+
+		</div>
+
+		<script src="external/jquery/jquery.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
+	
